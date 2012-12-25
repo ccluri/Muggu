@@ -1,0 +1,18 @@
+Muggu in Telugu or Rangoli is an Indian pattern art which follows rules inside a grid of points. The patterns are made during festive days, and filled with colors. This is an attempt to generate such patterns.
+
+The first assumption is to ignore the grid points. Instead make a fine continuous plane, and create a symmetric pattern generator. As a kid I loved playing with a spirograph. This is what I will try here. 
+
+I realized that a spirograph is just a pendulum in zerogravity on a plane. [Also defies the motion of Sun-Earth-Moon system(?)] We are tracing the position of the 'bob' of the pendulum. In the case of a single pendulum, we get a circle. Now attaching another pendulum to the bob of the previous pendulum would result in interesting patterns. And so on ...
+
+Pendulum is a python class wherein the pivot of the pendulum can be changed. This enabled perpetual addition of pendulums to one another.
+
+ADDITIONAL SOFTWARE:
+1) numpy
+2) matplotlib
+
+TO RUN:
+>python muggu.py #currently shows a circle.
+>python pendulum.py # buggy! spirals out for some reason!
+
+FUTURE:
+What happens in 3D? what regulates the motion along each direction. Are atomic orbitals 3D Spirographs? - Probably not, but I wonder. 
